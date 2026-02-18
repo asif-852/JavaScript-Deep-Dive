@@ -5,7 +5,7 @@
  */
 var flat = function (arr, n) {
     if(n === 0) {
-        return arr.slice();
+        return arr;
     }
 
     const ans = [];
