@@ -9,7 +9,7 @@ var flat = function (arr, n) {
     }
 
     const ans = [];
-    for(ele of arr) {
+    for(const ele of arr) {
         if(typeof(ele) === 'object') {
             const temp = flat(ele, n - 1);
             ans.push(...temp);
