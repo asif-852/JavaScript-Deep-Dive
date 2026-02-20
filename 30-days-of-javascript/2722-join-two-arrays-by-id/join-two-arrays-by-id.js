@@ -6,7 +6,7 @@
 var join = function(arr1, arr2) {
     const res = {};
     const used = new Map();
-    for(obj of arr1) {
+    for(const obj of arr1) {
         used.set(obj.id, 1);
         res[obj.id] = obj;
     }
