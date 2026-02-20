@@ -4,7 +4,7 @@
  */
 var compactObject = function(obj) {
     // Array part
-    if(typeof (obj) === "number" || typeof (obj) === "boolean" || typeof (obj) === "string") {
+    if(['number', 'boolean', 'string'].includes(typeof obj)) {
         return obj;
     }
 
