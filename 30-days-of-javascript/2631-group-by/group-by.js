@@ -4,7 +4,7 @@
  */
 Array.prototype.groupBy = function(fn) {
     const res = {};
-    for(ele of this) {
+    for(const ele of this) {
         const key = fn(ele);
         res[key] = res[key] ?? [];  // Nullish Coalescing Operator (??)
         res[key].push(ele);
