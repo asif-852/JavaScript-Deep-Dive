@@ -1,1 +1,1 @@
-# JavaScript-Learning-and-Practice
+# JavaScript-Deep-Dive
